@@ -12,6 +12,6 @@ type Interface interface {
 
 type Method struct{}
 
-func InitMethods() Interface {
+func CreateAction() Interface {
 	return &Method{}
 }

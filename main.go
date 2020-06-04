@@ -9,7 +9,7 @@ func main() {
 
 	r := gin.Default()
 
-	m := methods.InitMethods()
+	m := methods.CreateAction()
 
 	r.POST("/trainmodel", m.TrainModel)
 
