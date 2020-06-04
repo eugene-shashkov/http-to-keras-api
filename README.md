@@ -12,7 +12,7 @@
 POST /trainmodel
 ```
 
-> ``/ismodelexist`` "Is model exist" method is checking if learning finished and .h5 file created 
+> ``/ismodelexist`` "Is model exist" method is checking if learning finished and .h5 file is created 
 ```
 POST /ismodelexist
 ```
